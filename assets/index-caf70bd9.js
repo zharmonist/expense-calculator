@@ -7987,6 +7987,8 @@ function TrainPanel({ entries, staff, onUpdateEntry, onRemoveEntry }) {
       totalExcludedTax += result.excludedTax;
     }
   }
+  totalTax = round2(totalTax);
+  totalExcludedTax = round2(totalExcludedTax);
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: entries.length > 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-x-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("table", { className: "w-full text-sm", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("thead", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("tr", { className: "text-xs text-slate-400 border-b border-white/5", children: [
@@ -8119,6 +8121,8 @@ function FlightPanel({ entries, staff, settings, onUpdateEntry, onRemoveEntry })
       totalExcludedTax += result.excludedTax;
     }
   }
+  totalTax = round2(totalTax);
+  totalExcludedTax = round2(totalExcludedTax);
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: entries.length > 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-x-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("table", { className: "w-full text-sm", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("thead", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("tr", { className: "text-xs text-slate-400 border-b border-white/5", children: [
@@ -8251,6 +8255,8 @@ function HotelPanel({ entries, staff, onUpdateEntry, onRemoveEntry }) {
       totalExcludedTax += result.excludedTax;
     }
   }
+  totalTax = round2(totalTax);
+  totalExcludedTax = round2(totalExcludedTax);
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-3", children: entries.length > 0 ? /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "overflow-x-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("table", { className: "w-full text-sm", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("thead", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("tr", { className: "text-xs text-slate-400 border-b border-white/5", children: [
